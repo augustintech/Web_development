@@ -5,9 +5,10 @@ body {
 }
 
 h2 {
-  color: red;
+  color: #FFEB44;
   text-align: center;
-  border: 5px solid purple;
+  border: 5px solid rgba(255, 176, 170, 0.5);
+  cursor: pointer;
 }
 
 p {
@@ -20,4 +21,5 @@ p {
 li {
   color: red;
   list-style: none;
+  display: inline-block;
 }
