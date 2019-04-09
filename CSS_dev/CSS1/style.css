@@ -10,7 +10,7 @@ body {
   background-size: cover;
 }
 
-h2 p {
+h2 + p:hover {
   color: #FFEB44;
   text-align: center;
   border: 5px solid rgba(255, 176, 170, 0.5);
@@ -30,7 +30,7 @@ li {
   display: inline-block;
 }
 
-.sometext {
+.sometext:first-child {
     border: 5px dashed green;
 }
 
