@@ -13,3 +13,7 @@ p {
 p {
   color: green;
 }
+
+.sometext {
+    border: 5px dashed green;
+}
