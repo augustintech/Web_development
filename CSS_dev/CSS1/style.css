@@ -1,19 +1,47 @@
 /*Selector {
   Property: value;
 }*/
+* {
+  text-align: right;
+}
 
-h2 {
-  color: red;
+body {
+  background-image: url(1.jpg);
+  background-size: cover;
+}
+
+h2 p {
+  color: #FFEB44;
+  text-align: center;
+  border: 5px solid rgba(255, 176, 170, 0.5);
+  cursor: pointer;
 }
 
 p {
   color: pink;
 }
-
 p {
   color: green;
 }
 
+li {
+  color: red;
+  list-style: none;
+  display: inline-block;
+}
+
 .sometext {
     border: 5px dashed green;
+}
+
+.succesful {
+    color: red;
+}
+
+#div001 {
+    background: rgba(0, 0, 255, 0.2);
+}
+
+#div002 {
+  background: rgba(255, 0, 0, 0.2);
 }
