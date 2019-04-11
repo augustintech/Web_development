@@ -4,16 +4,14 @@ h1 {
 }
 
 .robots {
+		flex-wrap: wrap;
+		display: flex;
+		justify-content: center;
 }
 
 .head,
 .left_arm,
 .torso,
-
-
-
-
-
 .right_arm,
 .left_leg,
 .right_leg {
@@ -29,7 +27,7 @@ h1 {
 }
 
 .eyes {
-
+				display: flex;
 }
 
 .head:hover {
@@ -41,8 +39,6 @@ h1 {
 	width: 300px;
 	height: 150px;
 	display: flex;
-	margin-left: 228px;
-
 }
 
 .left_arm, .right_arm {
@@ -61,7 +57,6 @@ h1 {
 
 .torso {
 	width: 200px;
-	margin:auto;
 	height: 200px;
 	border-radius: 0 0 50px 50px;
 
@@ -73,7 +68,7 @@ h1 {
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
-
+	display: flex;
 }
 
 .left_leg, .right_leg {
@@ -95,10 +90,7 @@ h1 {
 }
 
 .right_leg {
-	margin-left: 100px;
-	margin-top: -70px;
-	height: 70px;
-
+	margin-left: 30px;
 }
 
 .left_eye, .right_eye {
@@ -118,6 +110,6 @@ h1 {
 
 .right_eye {
 	position: relative;
-	top: 80px;
-	left: 135px;
+	top: 100px;
+	left: 120px;
 }
