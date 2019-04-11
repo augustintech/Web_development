@@ -41,7 +41,7 @@ h1 {
 	width: 300px;
 	height: 150px;
 	display: flex;
-	margin-left: 218px;
+	margin-left: 224px;
 
 }
 
@@ -119,5 +119,5 @@ h1 {
 .right_eye {
 	position: relative;
 	top: 80px;
-	left: 130px;
+	left: 135px;
 }
