@@ -1,8 +1,8 @@
 [main_grid]{
   display: grid;
-  margin-top: 1em;
-  padding: 2em;
-  grid-gap: 4em;
+  margin-top: 0rem;
+  padding: 3em;
+  grid-gap: 2.5em;
 }
 
 [main_grid] > * {
@@ -16,7 +16,7 @@
 
 [main_grid="firstgrid"] {
   background: linear-gradient(to right, #00c9ff, #92fe9d);
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 2fr 4fr 6fr;
   color: #fff;
   font-family: 'Lobster', cursive;
   text-align: inherit;
@@ -25,7 +25,7 @@
 [main_grid="secondgrid"] {
   background: linear-gradient(to right, #00c9ff, #92fe9d);
   grid-auto-flow: row;
-  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-rows: 6fr 4fr 2fr;
   color: #fff;
   font-family: 'Lobster', cursive;
   text-align: inherit;
