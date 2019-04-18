@@ -18,11 +18,12 @@ nav {
   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
 }
 
-.first {
+< first {
   border-radius: 4px
   margin: inherit;
   margin-top: 11em;
   display: block;
   text-align: center;
   font-family: fantasy;
+  color: red;
 }
