@@ -21,3 +21,10 @@ nav {
   border: 1px solid #g3l;
   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
 }
+
+.first {
+  border-radius: 4px
+  margin: inherit;
+  margin-top: 11em;
+  display: block;
+}
