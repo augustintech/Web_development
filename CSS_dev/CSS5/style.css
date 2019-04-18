@@ -23,4 +23,6 @@ nav {
   margin: inherit;
   margin-top: 11em;
   display: block;
+  text-align: center;
+  font-family: fantasy;
 }
