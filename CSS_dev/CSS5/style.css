@@ -18,10 +18,9 @@ nav {
   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
 }
 
-< first {
+h1 {
   border-radius: 4px
-  margin: inherit;
-  margin-top: 11em;
+  margin-top: 20px;
   display: block;
   text-align: center;
   font-family: fantasy;
