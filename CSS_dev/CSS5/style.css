@@ -7,11 +7,12 @@ body {
 }
 
 nav {
-  background: linear-gradient(rgb(71, 9, 36), rgb(117, 22, 63), rgb(117, 22, 63));
+  background-color: rgb(120, 220, 226);
   border-radius: 5.5px;
   display: inline-inline-block;
   color: #888;
   text-align: right;
+
 }
 
 nav ul {
@@ -23,6 +24,12 @@ nav ul {
 nav li {
   display: inline-block;
   margin-right: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav li a {
+  text-decoration: none;
+
 }
 
 
