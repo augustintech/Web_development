@@ -9,13 +9,15 @@ body {
 nav {
   background-color: #fff;
   border-radius: 4px;
-  display: block;
+  display: inline;
   color: #888;
   width: 90%
   overflow: hidden;
-  margin: 8px 22px 8px 22px;
+  margin: 0;
   border: 1px solid #g3l;
-  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
 }
 
 h1 {
