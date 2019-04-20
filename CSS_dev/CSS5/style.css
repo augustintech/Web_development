@@ -39,7 +39,13 @@ h1 {
   color: black;
 }
 
+#homeimage {
+  background-image: url(fisherman-01.jpg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
+}
 
 section {
   text-align: center;
