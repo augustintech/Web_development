@@ -30,22 +30,9 @@ nav a {
 }
 
 
-h1 {
-  border-radius: 4px
-  margin-top: 20px;
-  display: block;
-  text-align: center;
-  font-family: cursive;
-  color: black;
-}
 
-#homeimage {
-  background-image: url(fisherman-01.jpg);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 
-}
+
 
 section {
   text-align: center;
