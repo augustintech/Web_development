@@ -39,11 +39,12 @@ h1 {
   color: black;
 }
 
-h1:hover {
-  cursor: crosshair;
-}
+
 
 section {
   text-align: center;
+}
 
+p {
+   font-family: 'Quicksand', sans-serif;
 }
