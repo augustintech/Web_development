@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
   <body>
-    <nav class="menuxyz">
+    <nav class="menuxyz" id="myTopnav">
       <ul>
         <a href="#">
         <img src="icon-fish.png" width="40px" height="30px"></a>
@@ -21,6 +21,16 @@
         </li>
       </ul>
     </nav>
+
+    <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "menuxyz") {
+    x.className += " responsive";
+  } else {
+    x.className = "menuxyz";
+  }
+} </script>
 
 <section class="BRB12">
   <h2 class="main1text">Fisherman's cave</h2>

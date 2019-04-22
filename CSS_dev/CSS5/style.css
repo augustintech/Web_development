@@ -52,8 +52,8 @@ p {
 
 
 @media screen and (max-width: 600px) {
-  .menuxyz a:not(:first-child) {display: none;}
-  .menuzyz a.icon {
+  nav.menuxyz a:not(:first-child) {display: none;}
+  nav.menuzyz a.icon {
     float: right;
     display: block;
   }
@@ -61,13 +61,13 @@ p {
 
 
 @media screen and (max-width: 600px) {
-  .menuxyz.responsive {position: relative;}
-  .menuxyz.responsive a.icon {
+  nav.menuxyz.responsive {position: relative;}
+  nav.menuxyz.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .menuxyz.responsive a {
+  nav.menuxyz.responsive a {
     float: none;
     display: block;
     text-align: left;
