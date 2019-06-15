@@ -36,3 +36,7 @@ var lastName = "Smith";
 if (firstName === "Bob" && lastName === "Smith") {
     alert("Hi Bob Smith!");
 }
+
+if (!(name === "Bob")) {
+    alert("Hi Bob");
+}
