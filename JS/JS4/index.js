@@ -29,3 +29,11 @@ function red(blue) {
 red("First try");
 red("Second try");
 red("Third try");
+
+function multiply(a, b) {
+    return a * b
+}
+
+/*green = multiply(5, 10);
+
+console.log(green); */
