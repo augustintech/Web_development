@@ -21,3 +21,11 @@ function yellow2() {
 }
 
 yellow2();
+
+function red(blue) {
+    console.log(blue);
+}
+
+red("First try");
+red("Second try");
+red("Third try");
