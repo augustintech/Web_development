@@ -31,9 +31,24 @@ red("Second try");
 red("Third try");
 
 function multiply(a, b) {
-    return a * b
+    return a;
+    return a * b;
+    
+    return b;
 }
 
 /*green = multiply(5, 10);
 
 console.log(green); */
+
+var u = function divide(c, d) {
+    if (c > 10 || d > 10) {
+        return "This is not good";
+    } else {
+        return c/d;
+    }
+    
+}
+
+u(8, 4);
+alert(u(8, 4));
