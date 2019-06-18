@@ -1,6 +1,6 @@
 
 
-
+// Function declaration
 
 function checkDriverAge() {
     var age = prompt("What is your age?");
@@ -12,6 +12,8 @@ function checkDriverAge() {
         alert("Congratulations on your first year of driving. Enjoy the ride!");
     }
 }
+
+// Function expression
 
 var checkDriverAge2 = function() {
     var age = prompt("What is your age?");
