@@ -1,0 +1,15 @@
+var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+array.shift();
+console.log(array);
+array.sort();
+console.log(array);
+array.push("Kiwi");
+console.log(array);
+array.shift([1]);
+//array.splice(0, 1);
+console.log(array);
+array.reverse();
+console.log(array);
+var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+array2[1][1][0];
+console.log(array2);
