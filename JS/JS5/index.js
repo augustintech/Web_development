@@ -1,2 +1,2 @@
-var list = ["king", "bread", "wall", "saucer"];
-list
+var list =  ["king", "bread", "wall", "saucer"];
+
