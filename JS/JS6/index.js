@@ -5,4 +5,5 @@ var user = {
     isMarried: false,
 };
 
-var list = ["fire", "water", "orange"];
+var list = ["fire", "water", "orange", "sky"];
+
