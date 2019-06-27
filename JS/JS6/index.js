@@ -3,7 +3,20 @@ var user = {
     age: 31,
     hobby: "Baseball",
     isMarried: false,
+    traits: ["positive", "trustworthy", "slow"],
+    shout: function() {
+        console.log("AHHHHHHH!");
+    }
 };
 
-var list = ["fire", "water", "orange", "sky"];
+var list = [
+{ 
+    username: "chris",
+    password: "secret"
+},
+{
+    username: "jimmy",
+    password: "123"
+}
 
+];
